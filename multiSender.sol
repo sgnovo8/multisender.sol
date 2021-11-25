@@ -6,6 +6,11 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
+
+//no variables?
+
+
+
 contract MultiSender is Ownable {
     using SafeMath for uint;
     event LogTokenMultiSent(address token,uint256 total);
